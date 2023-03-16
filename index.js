@@ -21,6 +21,7 @@ const concat = (str1, str2) => {
     throw new Error("Error de tipo");
 }
 
+
 try{
     const c = concat("A", 3);
     console.log(c);
